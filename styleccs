@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#183C63;
+    color:white;
+
+    max-width:900px;
+    margin:20px auto;
+
+    padding:20px;
+
+    text-align:center;
+
+    border-radius:10px;
+}
+
+header img{
+    width:80px;
+    height:80px;
+    margin:15px 0;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#ffffff;
+    color:#183C63;
+    cursor:pointer;
+    border-radius:8px;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#d9e8ff;
+}
+
+main{
+    max-width:900px;
+    margin:20px auto;
+    padding:20px;
+}
+
+.post{
+    background:white;
+
+    margin-bottom:20px;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    border-left:8px solid #183C63;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.post h2{
+    margin-bottom:10px;
+    color:#183C63;
+}
+
+.post h4{
+    margin-bottom:15px;
+    color:#777;
+}
+
+footer{
+    background:#183C63;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+/* Tema escuro */
+
+.dark{
+    background:#111;
+    color:#fff;
+}
+
+.dark .post{
+    background:#222;
+    color:white;
+}
+
+.dark header{
+    background:#0b1d30;
+}
+
+.dark footer{
+    background:#0b1d30;
+}
